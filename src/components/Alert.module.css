@@ -1,0 +1,17 @@
+p.error {
+  color: black;
+  background-color: coral;
+  padding: 15px;
+}
+p.success {
+  color: wheat;
+  background: #000;
+  font-weight: 700;
+  padding: 15px;
+}
+p.default {
+  color: white;
+  background: #000;
+  font-weight: 700;
+  padding: 15px;
+}
