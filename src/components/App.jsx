@@ -1,17 +1,27 @@
-import "./App.css";
+import './App.css';
 // src/components/App.jsx
 
-import Product from "./Product";
-import { Alert } from "./Alert";
+import Profile from './Profile/Profile';
+import FriendList from './FriendList/FriendList';
+
+import userData from '../data/userData';
+import friends from '../data/friendData';
+
 
 export default function App() {
+  const { followers, views, likes } = userData.stats;
   return (
     <>
-      <Alert variant="error">Bad news</Alert>
-
-      <Alert variant="success">Bad news</Alert>
-      <Alert variant="error">Bad news</Alert>
-      <Alert variant="error">Bad news</Alert>
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        followers={followers}
+        views={views}
+        likes={likes}
+      />
+      <FriendList friends={friends} />
     </>
   );
 }

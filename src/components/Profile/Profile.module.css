@@ -1,0 +1,61 @@
+.wrapper {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #fff1f9;
+  padding: 20px 15px 0;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: -5px 10px 30px black;
+}
+.statsList {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0 20px;
+  padding-left: 0;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 20px;
+  column-gap: 1px;
+  background-color: #afbbdd;
+}
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  border-right: 2px solid #686b75;
+}
+.statsItem:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+.img {
+  width: 350px;
+  border-radius: 50%;
+  border: 1px solid cadetblue;
+  background-color: #fff;
+}
+.location,
+.tag {
+  color: cadetblue;
+  font-weight: 600;
+  font-size: 26px;
+  margin: 0;
+}
+.userName {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 10px;
+}
+.statsName {
+  font-size: 18px;
+  font-weight: 700;
+}
