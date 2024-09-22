@@ -1,0 +1,15 @@
+td,
+th{
+    padding: 4px;
+}
+table {
+  border-collapse: collapse;
+  margin: 50px auto 20px;
+}
+.headerTable{
+    border: 2px solid black;
+    background-color: burlywood;
+}
+.mainTable{
+    border: 1px solid black;
+}

@@ -3,6 +3,7 @@
   padding: 0;
   display: flex;
   column-gap: 50px;
+  margin-top: 50px;
 }
 .item {
   padding: 20px;
